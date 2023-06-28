@@ -11,6 +11,7 @@ class ParkingSystem {
         if (a[carType - 1] <= 0) return false;
         a[carType - 1]--;
         return true;
+        //hello
        
     }
 }
