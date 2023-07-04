@@ -6,7 +6,7 @@ class ParkingSystem {
         a[1] = medium;
         a[2] = small;
     }
-    
+    //ki
     public boolean addCar(int carType) {
         if (a[carType - 1] <= 0) return false;
         a[carType - 1]--;
